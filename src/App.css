@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+.header{
+  width: 100%;
+  background-color: rgb(124, 226, 244);
+  display: flex;
+  justify-content: center;
+}
+.header_row{
+  width: 95%;
+}
+.logo a{
+  font-size: 20px;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight:bolder;
+   
+}
+.dash_body p {
+  text-align: center;
+  font-size: 40px;
+  background-color: aquamarine;
+}
+.login{
+  background-color: blueviolet;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.login_form{
+  width: 50%;
+  height: 30vh;
+  background-color: beige;
+  border-radius: 15px;
+}
+.login input{
+  width: 100%;
+  margin:5px 0px 5px 0px;
+  padding:5px 0px 5px 0px;
+  border-radius: 5px;
+}
+.login button{
+  border-radius: 6px;
+  width: 100%;
+  margin:5px 0px 5px 0px;
+  padding:5px 0px 5px 0px;
+  
+}
